@@ -1,19 +1,20 @@
 class Solution {
 public:
-    int solve(int n, vector<int> &dp) {
-        if (n <= 3)
-            return n;
-
-        if (dp[n] != -1)
-            return dp[n];
-
-        dp[n] = solve(n - 1, dp) + solve(n - 2, dp);
-
-        return dp[n];
-    }
-
     int climbStairs(int n) {
-        vector<int> dp(n + 1, -1);
-        return solve(n, dp);
+        int first =1;
+        int second = 2;
+        int way =0;
+        if(n==1){
+            return first;
+        }
+        if(n==2){
+            return second;
+        }
+        for(int i=2;i<n;i++){
+            way = first + second;
+            first = second;
+            second = way;
+        }
+        return way;
     }
 };
