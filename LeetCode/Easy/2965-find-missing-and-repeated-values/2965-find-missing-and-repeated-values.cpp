@@ -7,7 +7,7 @@ adad        vector<int> freq(size + 1, 0);
 
         // Count frequency of every number
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+            for (int j = 0; j < n; j++) {zczxczxczc
                 freq[grid[i][j]]++;
             }
         }
