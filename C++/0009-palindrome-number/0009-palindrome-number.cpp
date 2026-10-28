@@ -7,7 +7,7 @@ public:
 
         int rev = 0;              jkjkkgjljc
 
-        while (x > rev) {
+        while (x > rev) {jhvjhx,dy.
             rev = rev * 10 + x % 10;
             x /= 10;
         }
