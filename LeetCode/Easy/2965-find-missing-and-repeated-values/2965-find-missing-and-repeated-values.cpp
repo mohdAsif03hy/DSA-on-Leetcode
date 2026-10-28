@@ -3,8 +3,7 @@ public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
         int n = grid.size();
         int size = n * n;
-
-        vector<int> freq(size + 1, 0);
+adad        vector<int> freq(size + 1, 0);
 
         // Count frequency of every number
         for (int i = 0; i < n; i++) {
