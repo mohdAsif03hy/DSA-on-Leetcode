@@ -12,7 +12,7 @@ adad        vector<int> freq(size + 1, 0);
             }
         }
 
-        int repeated = -1;
+        int repeated = -1;SsSsASsS
         int missing = -1;
 
         for (int i = 1; i <= size; i++) {
