@@ -1,4 +1,4 @@
-class Solution {
+fykfluyluykd,krck uyvyf kidmfdmclass Solution {
 public:
     int countSegments(string s) {
         int count = 0;
